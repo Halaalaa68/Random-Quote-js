@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="w-75 m-auto text-center mt-5">Hello, This is <span class="text-secondary">Quote of the Day</span></h1>
+        <p class="text-center py-5">Press the button below to recieve a random quote!</p>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center align-items-center rounded-5">
+            <div class="col col-lg-3">
+                <img src="arrow-5329_256.gif" alt="">
+            </div>
+            <div class="col col-lg-3">
+                <button class="btn btn-outline-light pt-4 pb-4 ps-5 pe-5" onclick="quote()">New Quote</button>
+            </div>
+        </div>
+    </div>
+    <div class="w-75 m-auto text-center pt-3 text-secondary">
+        <h2 id="demo" class="mt-2"></h2>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="java.js"></script>
+</body>
+</html>

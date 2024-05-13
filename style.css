@@ -1,0 +1,10 @@
+body{
+    font-family: "Noto Serif", serif;
+    background-color: #FFEAA7;
+}
+h2,h3, span{
+    font-family: "Pacifico", cursive;
+}
+.row{
+    background-color: #FF6868;
+}
